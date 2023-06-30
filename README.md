@@ -1,6 +1,10 @@
-# my-neovim-config
-it isn't ready yet, 'cause at the same time that I'm setting thins, I'm also learning how to use neovim
-<hr>
-<h2>we're back</h2>
-i've decided to learn it on the right way (kinda)...I'm now using a WSL...
-btw I'm using Ubuntu 'cause I used Ubuntu on my first computer
+<h4>my-neovim-config</h4>
+<p>**this is just a alpha version, it isn't ready yet, but feel free to customize it as you like**</p>
+<p>**I still learning about NeoVim, so if u have a advice or some cool plugin, let me know**</p><hr>
+
+<h4>we're back!</h4><!--thru, jun 29-->
+<p>but now doing it on the right way (kinda)</p>
+<ul>
+  <li>I'm now using a WSL</li>
+  <li>Ubuntu</li>
+</ul>
