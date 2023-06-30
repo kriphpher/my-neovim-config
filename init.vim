@@ -53,3 +53,5 @@ Plug 'https://github.com/preservim/tagbar'
 Plug 'https://github.com/terryma/vim-multiple-cursors'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 call plug#end()
+
+" F u, it is what it is
