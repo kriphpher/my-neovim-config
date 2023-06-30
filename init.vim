@@ -6,11 +6,10 @@ set softtabstop=4
 set shiftwidth=4
 set smarttab
 set encoding=UTF-8
-colorscheme-onedark
+colorscheme catppuccin-mocha
 
 call plug#begin()
 Plug 'http://github.com/tpope/vim-surround'
-
 Plug 'https://github.com/preservim/nerdtree'
 	let g:NERDTreeDirArrowExpandable="+"
 	let g:NERDTreeDirArrowCollapsible="-"
@@ -19,9 +18,7 @@ Plug 'https://github.com/preservim/nerdtree'
 	nmap <C-n> :NERDTree<CR>
 	nmap <C-t> :NERDTreeToggle<CR>
 	nmap <C-l> :UndotreeToggle<CR>
-
 Plug 'https://github.com/tpope/vim-commentary'
-
 Plug 'https://github.com/vim-airline/vim-airline'
 	let g:airline_theme = 'onedark'
 	let g:airline_powerline_fonts = 1
@@ -39,19 +36,14 @@ Plug 'https://github.com/vim-airline/vim-airline'
 		\'markdown',
 		\'text'
 		\]
-
 Plug 'https://github.com/lifepillar/pgsql.vim'
 Plug 'https://github.com/ap/vim-css-color'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 "Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/tc50cal/vim-terminal'
-
 Plug 'https://github.com/preservim/tagbar'
 	nmap <F8> :TagbarToggle<CR>
-
 Plug 'https://github.com/terryma/vim-multiple-cursors'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 call plug#end()
-
-" F u, it is what it is
