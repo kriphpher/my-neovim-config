@@ -49,3 +49,4 @@ call plug#begin()
 	Plug 'https://github.com/catppuccin/nvim'
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 call plug#end()
+
