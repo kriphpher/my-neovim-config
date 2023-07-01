@@ -1,10 +1,10 @@
 <h4>my-neovim-config</h4>
-this is just a alpha version, it isn't ready yet, but feel free to customize it as you like<br>
-I still learning about NeoVim, so if u have a advice or some cool plugin, let me know<hr>
+I'm learning about NeoVim and also creating my own configuration for it at the same time<br>
+If you have a advice or a Plugin that'll help me on my journey, let me know!<br>
+Feel free to customize it as you like<hr>
 
-<h4>we're back!</h4><!--thru, jun 29-->
-<p>but now doing it on the right way (kinda)</p>
+<h4>We're back!</h4><!--thru, jun 29-->
+<p>But now I'm trying to do this right</p>
 <ul>
-  <li>I'm now using a WSL</li>
-  <li>Ubuntu</li>
+  <li>Ubuntu (WSL)</li>
 </ul>
