@@ -6,7 +6,6 @@ set softtabstop=4
 set shiftwidth=4
 set smarttab
 set encoding=UTF-8
-"colorscheme catppuccin (i have to fix this thing)
 
 call plug#begin()
 	Plug 'http://github.com/tpope/vim-surround'
@@ -15,9 +14,9 @@ call plug#begin()
 		let g:NERDTreeDirArrowCollapsible="-"
 		let g:python_highlight_all = 1
 		nmap <C-f> :NERDTreeFocus<CR>
-		nmap <C-n> :NERDTree<CR>
-		nmap <C-t> :NERDTreeToggle<CR>
-		nmap <C-l> :UndotreeToggle<CR>
+		nmap <F2> :NERDTree<CR>
+			"nmap <> :NERDTreeToggle<CR>
+			"nmap <> :UndotreeToggle<CR>
 	Plug 'https://github.com/tpope/vim-commentary'
 	Plug 'https://github.com/vim-airline/vim-airline'
 		let g:airline_theme = 'onedark'
@@ -44,7 +43,7 @@ call plug#begin()
 	Plug 'https://github.com/ryanoasis/vim-devicons'
 	Plug 'https://github.com/tc50cal/vim-terminal'
 	Plug 'https://github.com/preservim/tagbar'
-		nmap <F8> :TagbarToggle<CR>
+		nmap <F3> :TagbarToggle<CR>
 	Plug 'https://github.com/terryma/vim-multiple-cursors'
 	Plug 'https://github.com/catppuccin/nvim'
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes'
