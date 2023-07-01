@@ -45,7 +45,6 @@ call plug#begin()
 	Plug 'https://github.com/preservim/tagbar'
 		nmap <F3> :TagbarToggle<CR>
 	Plug 'https://github.com/terryma/vim-multiple-cursors'
-	Plug 'https://github.com/catppuccin/nvim'
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 call plug#end()
 
