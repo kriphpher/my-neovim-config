@@ -10,6 +10,9 @@
   <ul>
     <li>Main Configs</li>
     <li>Install/Add Plugins</li>
+    <ul>
+      <li>Plugins Configs</li>
+    </ul>
   </ul>
   <li>Lua Script</li>
     <ul>
