@@ -50,4 +50,5 @@ call plug#begin()
 	Plug 'https://github.com/terryma/vim-multiple-cursors'
 	Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 	Plug 'https://github.com/mcchrish/vim-no-color-collections'
+	Plug 'https://github.com/tpope/vim-fugitive'
 call plug#end()
