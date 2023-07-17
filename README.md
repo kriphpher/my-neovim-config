@@ -20,12 +20,3 @@
     </ul>
 </ul>
 <hr>
-
-<h3>Some Updates</h3>
-<p>I've being thinking 'bout to use LinuxOS, but now I dunno wich one should I pick to use as a beginner</p>
-<ul>
-  <li>Ubuntu</li>
-  <li>Arch Linux</li>
-</ul>
-<p>On my NeoVim journey I was using Ubuntu but now I'm using Arch Linux...I Dunno</p> 
-  // i've now realized that I'm a readme file as a blog
