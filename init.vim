@@ -38,9 +38,9 @@ call plug#begin()
 			\]
 	Plug 'https://github.com/lifepillar/pgsql.vim'
 	Plug 'https://github.com/ap/vim-css-color'
-	"Plug 'https://github.com/neoclide/coc.nvim'
-		"nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
-		"inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm(): "<Tab>"
+	Plug 'https://github.com/neoclide/coc.nvim'
+		nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
+		inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm(): "<Tab>"
 	Plug 'https://github.com/ryanoasis/vim-devicons'
 	Plug 'https://github.com/tc50cal/vim-terminal'
 	Plug 'https://github.com/preservim/tagbar'
