@@ -17,9 +17,6 @@ call plug#begin()
 		let g:python_highlight_all = 1
 		nmap <C-f> :NERDTreeFocus<CR>
 		nmap <F2> :NERDTreeToggle<CR>
-			"You can also use these
-			"nmap <> :NERDTree<CR>
-			"nmap <> :UndotreeToggle<CR>
 	Plug 'https://github.com/tpope/vim-commentary'
 	Plug 'https://github.com/vim-airline/vim-airline'
 		let g:airline_theme = 'onedark'
@@ -40,9 +37,9 @@ call plug#begin()
 			\]
 	Plug 'https://github.com/lifepillar/pgsql.vim'
 	Plug 'https://github.com/ap/vim-css-color'
-	"Plug 'https://github.com/neoclide/coc.nvim'
-		"nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
-		"inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm():"<Tab>"
+	Plug 'https://github.com/neoclide/coc.nvim'
+		nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
+		inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm():"<Tab>"
 	Plug 'https://github.com/ryanoasis/vim-devicons'
 	Plug 'https://github.com/tc50cal/vim-terminal'
 	Plug 'https://github.com/preservim/tagbar'
