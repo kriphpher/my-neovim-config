@@ -7,6 +7,7 @@ set shiftwidth=2
 set smarttab
 set completeopt-=preview
 set background=light
+colorscheme slate
 scriptencoding utf-8 
 
 call plug#begin()
@@ -25,11 +26,11 @@ call plug#begin()
 		let g:airline_left_alt_sep = ''
 		let g:airline_right_sep = ''
 		let g:airline_right_alt_sep = ''
-		let g:airline_symbols.branch = ''
-		let g:airline_symbols.readonly = ''
-		let g:airline_symbols.lenenr = ''
-			if !exists('g:airline_symbols')
+			if !exists('g:airline_symols')
 				let g:airline_symbols = {}
+					let g:airline_symbols.branch = ''
+					let g:airline_symbols.readonly = ''
+					let g:airline_symbols.lenenr = ''
 			endif
 		let g:bullets_enables_files_types = [
 			\'markdown',
@@ -37,9 +38,9 @@ call plug#begin()
 			\]
 	Plug 'https://github.com/lifepillar/pgsql.vim'
 	Plug 'https://github.com/ap/vim-css-color'
-	Plug 'https://github.com/neoclide/coc.nvim'
-		nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
-		inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm():"<Tab>"
+	"Plug 'https://github.com/neoclide/coc.nvim'
+		"nmap <C-l> :call CocActionAsync('JumpDefinition')<CR>
+		"inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm(): "<Tab>"
 	Plug 'https://github.com/ryanoasis/vim-devicons'
 	Plug 'https://github.com/tc50cal/vim-terminal'
 	Plug 'https://github.com/preservim/tagbar'
